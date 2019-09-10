@@ -2,6 +2,7 @@
 
 function writeTag(nfcEvent) {
   // ignore what's on the tag for now, just overwrite
+  console.log("writeTag");
     
   var mimeType = document.forms[0].elements["mimeType"].value,
     payload = document.forms[0].elements["payload"].value,
