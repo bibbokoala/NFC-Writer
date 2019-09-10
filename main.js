@@ -41,34 +41,34 @@ document.addEventListener('deviceready', ready, false);
 var data = [
     {
         mimeType: 'text/pg',
-        payload: 'Hello PhoneGap'
+        payload: 'Hello test NFC TAG with PhoneGap'
     },
     {
         mimeType: 'text/plain',
-        payload: 'Hello PhoneGap'
+        payload: 'Hello test NFC TAG with PhoneGap'
     },
     {
         mimeType: 'text/x-vCard',
         payload: 'BEGIN:VCARD\n' +
             'VERSION:2.1\n' +
-            'N:Coleman;Don;;;\n' +
-            'FN:Don Coleman\n' +
-            'ORG:Chariot Solutions;\n' +
-            'URL:http://chariotsolutions.com\n' +
-            'TEL;WORK:215-358-1780\n' +
-            'EMAIL;WORK:dcoleman@chariotsolutions.com\n' +
+            'N:Tonni;Simone;;;\n' +
+            'FN:Simone Tonni\n' +
+            'ORG:eGlue Solutions;\n' +
+            'URL:http://egluesolutions.com\n' +
+            'TEL;WORK:06-6228-8833\n' +
+            'EMAIL;WORK:simone.tonni@egluesolutions.com\n' +
             'END:VCARD'
     },
     {
         mimeType: 'text/x-vCard',
         payload: 'BEGIN:VCARD\n' +
             'VERSION:2.1\n' +
-            'N:Griffin;Kevin;;;\n' +
-            'FN:Kevin Griffin\n' +
+            'N:Pievaioli;Maurizio;;;\n' +
+            'FN:Maurizio Pievaioli\n' +
             'ORG:Chariot Solutions;\n' +
-            'URL:http://chariotsolutions.com\n' +
-            'TEL;WORK:215-358-1780\n' +
-            'EMAIL;WORK:kgriffin@chariotsolutions.com\n' +
+            'URL:http://egluesolutions.com\n' +
+            'TEL;WORK:06-6228-8833\n' +
+            'EMAIL;WORK:maurizio.pievaioli@egluesolutions.com\n' +
             'END:VCARD'
     },
     {
